@@ -14,8 +14,7 @@ def parsing():
                                     description='Options below')
     parser.add_argument('-d', '--db',
                         metavar="",
-                        help='Path to SQLite DB file',
-                        required=True)
+                        help='Path to SQLite DB file')
     parser.add_argument('-s', '--songs',
                         type=filepath,
                         metavar="",
